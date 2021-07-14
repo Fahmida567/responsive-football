@@ -336,16 +336,16 @@ footer {
         font-size: 20px;
     } */ 
  .highlight-frame{ 
-        /* display: none; */
+        display: none;
          padding-right: 20px;
         padding-left: 18px; 
 
     }
-    .half-width img{
+    /* .half-width img{
         width: 100%;
         padding-top: 5%;
         
-    } 
+    }  */
    .row,.column{
        width: 100%;
 
@@ -368,12 +368,13 @@ tablet devices
         padding-right: 50px;
     }
     .highlight-frame{ 
-        /* display: none; */
+        display: none;
         padding-right: 20px;
         padding-left: 18px;
 
     }
     .half-width img{
+      
         width: 100%;
         padding-top: 5%;
         
@@ -382,9 +383,9 @@ tablet devices
        width: 100%;
 
    }
-    .players,.image-width,.flexible-container,.container,.half-width {
+    /* .players,.image-width,.flexible-container,.container,.half-width {
         grid-template-columns: repeat(1, 1fr); 
-     }
+     } */
     .nav-container{
         display: none;
     }
