@@ -128,19 +128,21 @@ transform: rotate(40deg);
 } 
 
 
-/* top section start */
+
 /* ------------------------
-    Course section 
+  Player section 
 ------------------------ */
-.courses{
+.players{
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     margin: 25px auto;
+    
+
 }
 
-.course{
-    margin: auto 90px;
+.player{
+    margin: auto 80px;
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 1px 1px 7px lightgray;
@@ -148,7 +150,7 @@ transform: rotate(40deg);
     transition: width 1s, height 1s, transform 2s;
    
 }
-.course:hover{
+.player:hover{
     box-shadow: 1px 1px 7px yellow;
     transform: rotate(-180deg);
     
@@ -172,42 +174,72 @@ transform: rotate(40deg);
 
 }
 
-.course-details{
+.player-details{
     width: 92%;
     margin: 0px 4% auto 4%;
 }
 
-.course-info{
+.player-info{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
 }
 
-.course-name{
+.player-name{
     font-size: 19px;
     font-weight: 500;
     margin-top: 10px;
 }
 
-.course-author{
+.player-data{
     color: #ED6B4F;
     font-size: 15px;
 }
-.rating{
-    color: #FFC014;
+.image-width{
+    text-align: center;
 }
-.rating span{
-    color: gray;
+.image-width img{
+    width: 45px;
 }
+.food-frame
+{   margin-top: 60px;
+    padding-left: 200px;
+   
+    display:flex;
+    
 
-.time{
-    padding: 5px 10px;
-    border-radius: 50px;
-    background-color: #FFE4E8;
-    color: #FF4A60;
-    font-weight: 600;
-    font-size: 14px;
 }
+.img-width img{
+    width: 80%;
+    height: 90%;
+    padding-left: 5%;
+}
+#hFont{
+    font-size:50px;
+    font-weight: bold;
+}
+footer {
+    text-align: center;
+    padding: 3%;
+    color:black;
+    
+    
+    
+  }
+  .orange{
+    color: orange;
+    font-size: 40px;
+  }
+  .orange img{
+      width: 35%;
+  }
+  .gray
+  {
+
+    font-size: 20px;
+  }
+  
+
 
 
