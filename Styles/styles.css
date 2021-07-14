@@ -51,6 +51,9 @@ main{
   
 
 }
+.filled{
+    width: 30px;
+}
 .nav-container{
     width: 60%;
     height: 100%;
